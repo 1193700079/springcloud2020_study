@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfd44767-0f38-48fb-acb2-0d27c7d5c7aa" name="Default Changelist" comment="" />
+    <list default="true" id="bfd44767-0f38-48fb-acb2-0d27c7d5c7aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1fo1Sc4Ytz2UlZBbRFsK3UOC1Gv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -173,11 +176,22 @@
       <workItem from="1596956291361" duration="1749000" />
       <workItem from="1596958065948" duration="3179000" />
       <workItem from="1596961397657" duration="819000" />
-      <workItem from="1597024671172" duration="2284000" />
+      <workItem from="1597024671172" duration="2783000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
