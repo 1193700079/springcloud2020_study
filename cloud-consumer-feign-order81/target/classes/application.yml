@@ -1,0 +1,41 @@
+server:
+  port: 81
+
+spring:
+  application:
+    name: cloud-order-service
+  datasource:
+    # 当前数据源操作类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    # mysql驱动类
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.yrq.springcloud.entity
+
+eureka:
+  client:
+    #true 表示将自己注册进入Eureka 默认为true
+    register-with-eureka: true
+    #false 表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
+    fetchRegistry: true
+    service-url:
+#      设置与eureka server交互的地址查询服务和注册服务都需要依赖这个地址
+#      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
+#设置feign客户端超时时间（OpenFeign默认支持ribbon）
+ribbon:
+#指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的实际
+  ReadTimeout: 5000
+#指的是建立连接后从服务器读取到可用资源所用的时间
+  ConnectTimeout: 5000
+
+logging:
+  level:
+#feign日志以什么级别监控那个接口
+    com.yrq.springcloud.service.PaymentFeignService: debug
