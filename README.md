@@ -28,4 +28,11 @@
 
 了解Hystrix的图形dashboard监控
 
-学习了gateway网关服务：断言（匹配成功转发 习惯用yml） 全局过滤器
+学习gateway网关服务：断言（匹配成功转发 习惯用yml） 全局过滤器
+
+学习config分布式配置
+
+了解Erlang语言（爱立信开发，用于通信的，因为RabbitMQ 需要此环境）
+
+学习bus的全局广播和定点广播（本质上就是RabbitMQ  （当然也可以用Kafka））
+

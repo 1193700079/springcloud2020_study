@@ -1,0 +1,49 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: cloud-config-client
+  cloud:
+    #Config客户端配置
+    config:
+      label: master #分支名称
+      name: config #配置文件名称
+      profile: dev #读取后缀名称 上诉3个综合就是 master分支上 config-dev.yml
+      uri: http://localhost:3344
+  #rabbit相关配置 15672是web管理界面的端口，5672是MQ访问的端口
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  datasource:
+    # 当前数据源操作类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    # mysql驱动类
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.yrq.springcloud.entity
+
+eureka:
+  client:
+    #true 表示将自己注册进入Eureka 默认为true
+    register-with-eureka: true
+    #false 表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
+    fetchRegistry: true
+    service-url:
+#      设置与eureka server交互的地址查询服务和注册服务都需要依赖这个地址
+#      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
+#暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

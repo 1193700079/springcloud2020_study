@@ -2,30 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfd44767-0f38-48fb-acb2-0d27c7d5c7aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/yrq/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-feign-order81/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-feign-order81/src/main/java/com/yrq/springcloud/OrderHystrixMain81.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-feign-order81/src/main/java/com/yrq/springcloud/controller/OrderHystrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-feign-order81/src/main/java/com/yrq/springcloud/service/PaymentFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-feign-order81/src/main/java/com/yrq/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-feign-order81/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/yrq/springcloud/GatewayMain9527.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/yrq/springcloud/config/GatewayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/yrq/springcloud/filter/MyLogGatewayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/java/com/yrq/springcloud/ConfigCenterMain3344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/yrq/springcloud/ConfigClientMain3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/yrq/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3377/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3377/src/main/java/com/yrq/springcloud/ConfigClientMain3377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3377/src/main/java/com/yrq/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order81/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order81/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yrq/springcloud/PaymentHystrixMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yrq/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yrq/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yrq/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yrq/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yrq/springcloud/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/yrq/springcloud/PaymentHystrixMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/yrq/springcloud/PaymentHystrixMain8001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/yrq/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/yrq/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/yrq/springcloud/service/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/yrq/springcloud/service/PaymentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,19 +85,22 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-client3377/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yrq.springcloud.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="J:\idea 2018\My Project\cloud2020\cloud-gateway-gateway9527\src\main\resources" />
-      <recent name="J:\idea 2018\My Project\cloud2020\cloud-consumer-hystrix-dashboard9001\src\main\resources" />
-      <recent name="J:\idea 2018\My Project\cloud2020\cloud-consumer-hystrix-feign-order81\src\main\resources" />
-      <recent name="J:\idea 2018\My Project\cloud2020\cloud-provider-hystrix-payment8001\src\main\resources" />
-      <recent name="J:\idea 2018\My Project\cloud2020\cloud-consumer-feign-order81\src\main\resources" />
+      <recent name="J:\idea 2018\My Project\cloud2020\cloud-config-client3377\src\main\resources" />
+      <recent name="J:\idea 2018\My Project\cloud2020\cloud-config-client3366\src\main\resources" />
+      <recent name="J:\idea 2018\My Project\cloud2020\cloud-config-client3366\src\main\java" />
+      <recent name="J:\idea 2018\My Project\cloud2020\cloud-config-client3355\src\main\resources" />
+      <recent name="J:\idea 2018\My Project\cloud2020\cloud-config-center3344\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,7 +120,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayMain9527">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3377">
+    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-center3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yrq.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yrq.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yrq.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yrq.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client3377" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yrq.springcloud.ConfigClientMain3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server7001" />
       <extension name="coverage">
@@ -183,14 +207,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderHystrixMain81" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderFeign81" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-order81" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yrq.springcloud.OrderFeign81" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderHystrixMain81" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-hystrix-feign-order81" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yrq.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yrq.springcloud.OrderHystrixMain81" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,14 +235,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yrq.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yrq.springcloud.PaymentHystrixMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -253,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GatewayMain9527" />
+        <item itemvalue="Spring Boot.ConfigClientMain3355" />
+        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
+        <item itemvalue="Spring Boot.GatewayMain9527" />
         <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
-        <item itemvalue="Spring Boot.OrderHystrixMain81" />
-        <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
       </list>
     </recent_temporary>
   </component>
@@ -269,22 +288,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c9d3b48a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3a001658" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c9d3b48a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@40b88414" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3a001658" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@305dc5d3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c9d3b48a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@df56cda9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c9d3b48a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b83679bb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3a001658" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ed6af2ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -313,7 +327,8 @@
       <workItem from="1597024671172" duration="24829000" />
       <workItem from="1597112415167" duration="1193000" />
       <workItem from="1597145219655" duration="7749000" />
-      <workItem from="1597193295032" duration="21390000" />
+      <workItem from="1597193295032" duration="28742000" />
+      <workItem from="1597238914162" duration="2424000" />
     </task>
     <servers />
   </component>
@@ -335,5 +350,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-config-client3377/src/main/java/com/yrq/springcloud/ConfigClientMain3377.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
