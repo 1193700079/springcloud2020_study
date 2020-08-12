@@ -23,6 +23,10 @@
     <module>cloud-consumerconsul-order81</module>
       <module>cloud-consumer-feign-order81</module>
       <module>cloud-provider-hystrix-payment8001</module>
+      <module>cloud-consumer-hystrix-feign-order81</module>
+    <module>cloud-consumer-hystrix-feign-order81</module>
+      <module>cloud-consumer-hystrix-dashboard9001</module>
+      <module>cloud-gateway-gateway9527</module>
   </modules>
   <!--统一管理jar包版本-->
   <properties>

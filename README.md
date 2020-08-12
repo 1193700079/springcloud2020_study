@@ -22,3 +22,10 @@
 
 了解Hystrix的基本原理： 服务降级 服务熔断 服务限流
 
+2020.8.12
+
+学习cmd的curl命令
+
+了解Hystrix的图形dashboard监控
+
+学习了gateway网关服务：断言（匹配成功转发 习惯用yml） 全局过滤器
